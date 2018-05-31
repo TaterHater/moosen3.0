@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import { Alert, AppRegistry, Button, StyleSheet, View } from 'react-native';
-
+import Main from './client'
 export default class ButtonBasics extends Component {
   _onPressButton() {
+
     Alert.alert('You tapped the button!')
+    console.log('button pressed')
   }
 
   render() {
